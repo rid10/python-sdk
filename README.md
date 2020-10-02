@@ -145,10 +145,11 @@ access_token = "<access_token>" #Required
 user_profile_update_model = { 
 "firstName" : "<firstName>",
 "lastName" : "<lastName>"
-}  #Required 
-email_template = "<email_template>" #Optional 
-fields = "<fields>" #Optional 
-null_support = "True" #Optional 
+}  #Required
+#optional things 
+email_template = "<email_template>" 
+fields = "<fields>" 
+null_support = "True"   
 sms_template = "<sms_template>" #Optional 
 verification_url = "<verification_url>" #Optional
 
